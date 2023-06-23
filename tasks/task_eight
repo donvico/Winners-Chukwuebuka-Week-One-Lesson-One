@@ -1,8 +1,7 @@
 //a variable without a vaue to it
-let LMTech
-console.log(LMTech)
+let LMTechie
+console.log(LMTechie)
 
 //assigning null to a variable
-const LMTech = null
-console.log(LMTech)
-console.log(typeof LMTech)
+const LMTechie = null
+console.log(typeof LMTechie)

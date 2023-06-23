@@ -1,0 +1,6 @@
+//using the console.log
+const statment = 'I '+ 'winners ' + 'chukwuebuka '+ 'will not back down despite the odds against me'
+console.log(statment);
+
+console.error('Danger Alerttt, Please hes not giving up soon')
+console.warn('Nwokem continue, just few more steps and boom you ready!')
