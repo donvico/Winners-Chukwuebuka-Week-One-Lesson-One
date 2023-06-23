@@ -1,0 +1,25 @@
+//string to number using parseint
+
+const firststring = "103";
+const number = parseInt(firststring);
+console.log(firststring); // Output: 103
+
+const secondstring = 30.90;
+const numb = parseFloat(secondstring);
+console.log(numb); // Output: 30.9
+
+//number to string
+const begin= 20;
+console.log(begin);
+const start = begin.toString();
+console.log(start); // Output: "20"
+
+//convert string to array by split method
+const club = 'Which club do you support'
+console.log(club) //produced 'Which club do you support' in the output
+const England = club.split('') //using the split method splited the string alphabets into 'W', 'h', 'i', 'c', 'h', ' ',
+// 'c', 'l', 'u', 'b', ' ', 'd',
+// 'o', ' ', 'y', 'o', 'u', ' ',
+// 's', 'u', 'p', 'p', 'o', 'r',
+// 't' because of the empty string in the bracket
+console.log(England)
