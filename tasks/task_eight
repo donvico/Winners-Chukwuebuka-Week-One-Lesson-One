@@ -1,0 +1,7 @@
+//a variable without a vaue to it
+let LMTechie
+console.log(LMTechie)
+
+//assigning null to a variable
+const LMTechie = null
+console.log(typeof LMTechie)

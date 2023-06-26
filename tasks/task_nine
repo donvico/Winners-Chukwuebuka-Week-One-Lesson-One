@@ -1,0 +1,7 @@
+//using template literals
+const trip = 'Tell me more about your adventure';
+const dayspent = 5;
+
+const message = `Hi do you care to share your experience about your last trip, if you dont mind  ${trip} and the ${dayspent} days spent total cost.`;
+
+console.log(message); // Output: Hi do you care to share your experience about your last trip, if you dont mind  Tell me more about your adventure and the 5 days spent total cost.

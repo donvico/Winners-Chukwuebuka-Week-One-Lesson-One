@@ -1,0 +1,26 @@
+//using the typeof
+const kiki = 90;
+console.log(typeof kiki); // Output: "number
+const string = "Welcome to Emirates Stadium!";
+console.log(typeof string); // Output: "string
+const array = [34, 98, 100, 203];
+console.log(typeof array); // Output: "object
+const boolean = false;
+console.log(typeof boolean); // Output: "boolean
+const object = { club: "arsenal", trophies: 202 };
+console.log(typeof object); // Output: "object"
+
+// //equality value
+console.log(true == 1); // Output: true
+
+// //strict equality
+console.log(true=== 1) // output: false
+
+// // truthy
+// // this are truthy values: true, functions. objects,non-empty strings
+let gender = true
+if (gender) {
+  console.log('he is a boy')}
+  else {
+    console.log('correct');
+  }
